@@ -3,8 +3,8 @@ class MacosConfigTools < Formula
 
   desc "macOS Configuration Tools"
   homepage "https://github.com/ocolunga/mct"
-  url "https://files.pythonhosted.org/packages/d3/b0/ef5a28e15a36dcb558228ca49d9d9120dc1191205c1334a734c7769fc487/macos_config_tools-0.2.1.tar.gz"
-  sha256 "f5ed91680f04de80797d4b48eadef8ff231d7e919568b19f68f6e14b23f4175f"
+  url "https://files.pythonhosted.org/packages/3c/1b/09be9a5b00b8b4da2f17268ac31679b62ca3118e2efbaf4ece2665df1552/macos_config_tools-0.2.2.tar.gz"
+  sha256 "8e1b5fc7b1c15a423b38bf3e14fd88f6d346ab6315884525d585757f1f17d116"
   license "MIT"
 
   depends_on "python@3.12"
@@ -35,8 +35,8 @@ class MacosConfigTools < Formula
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/a1/84/4831f881aa6ff3c976f6d6809b58cdfa350593ffc0dc3c58f5f6586780fb/rich-14.3.1.tar.gz"
-    sha256 "b8c5f568a3a749f9290ec6bddedf835cec33696bfc1e48bcfecb276c7386e4b8"
+    url "https://files.pythonhosted.org/packages/74/99/a4cab2acbb884f80e558b0771e97e21e939c5dfb460f488d19df485e8298/rich-14.3.2.tar.gz"
+    sha256 "e712f11c1a562a11843306f5ed999475f09ac31ffb64281f73ab29ffdda8b3b8"
   end
 
   resource "shellingham" do
