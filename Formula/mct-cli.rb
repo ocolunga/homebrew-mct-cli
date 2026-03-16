@@ -1,4 +1,4 @@
-class MacosConfigTools < Formula
+class MctCli < Formula
   include Language::Python::Virtualenv
 
   desc "macOS Configuration Tools"
