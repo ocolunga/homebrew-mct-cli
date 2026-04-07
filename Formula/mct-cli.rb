@@ -8,10 +8,12 @@ class MctCli < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/ocolunga/mct/releases/download/v0.2.10"
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "f6220787dfc9fa49a0306b6f262c8b5f3a8ea4fafb67e901e6ceccc2cb86f582"
+    root_url "https://github.com/ocolunga/mct/releases/download/v0.2.11"
+    rebuild 2
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "3cfc78196fff8d236a7c8e51b81bee3eab5da3ed1991868a2eb3b17870f24756"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "828eeb44143819ea0b229171c6c822b3f8944e71ce8bed0d29eaf33e33dae71e"
   end
+
 
   depends_on "python@3.12"
 
