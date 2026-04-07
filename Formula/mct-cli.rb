@@ -7,6 +7,12 @@ class MctCli < Formula
   sha256 "c4468cc78257703dd193257c2a9dc6b4c56ace7db6ee7e08865ce5a699e49fe7"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/ocolunga/mct/releases/download/v0.2.10"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "f6220787dfc9fa49a0306b6f262c8b5f3a8ea4fafb67e901e6ceccc2cb86f582"
+  end
+
   depends_on "python@3.12"
 
   resource "pyyaml" do
