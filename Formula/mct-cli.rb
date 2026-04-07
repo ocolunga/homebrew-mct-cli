@@ -3,8 +3,8 @@ class MctCli < Formula
 
   desc "macOS Configuration Tools"
   homepage "https://github.com/ocolunga/mct"
-  url "https://files.pythonhosted.org/packages/1f/d8/221e9cecbac85c3cbfa4d56bc5d6bdc10df314da23cb6df4cb3185d75f66/mct_cli-0.2.6.tar.gz"
-  sha256 "00fe23203553d43f45c0fd3d9394e2a8ce218fc0f446038d8c325afcff8347d9"
+  url "https://files.pythonhosted.org/packages/4d/ab/c8130376a505f382322ef11d2a68c968baf3052730044176046bc9c67781/mct_cli-0.2.8.tar.gz"
+  sha256 "bda154348c008cfafe9d0bf0b37b10de5eb7a9f3a2bf2341aab25ae6d8794a8f"
   license "MIT"
 
   depends_on "python@3.12"
